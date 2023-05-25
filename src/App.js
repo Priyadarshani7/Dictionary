@@ -36,7 +36,7 @@ function App() {
     <button onClick={fetchword} class='text-[20px]  border-none  shadow-md  rounded-3xl border-2 p-[10px] bg-[#FEFF86] font-sans cursor-pointer h-[50px]  ml-[30px] '>Search</button>
     </div>
     <p class='mt-[100px] text-[#000000] text-[30px]'>{word}</p>
-    <p>{error}</p>
+    <p class='mt-[50px] text-[#DF2E38] text-[30px]'>{error}</p>
 </div>
 
 
